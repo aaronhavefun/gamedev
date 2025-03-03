@@ -100,3 +100,9 @@
   margin-top: 10px;
 
 }
+
+.grid-box {
+  border: 1px solid #ccc;
+  padding: 15px;
+  text-align: center;
+}
