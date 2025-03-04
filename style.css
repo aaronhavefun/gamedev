@@ -105,8 +105,13 @@
   border: 1px solid #ccc;
   padding: 15px;
   text-align: center;
+  
 }
 
 .row {
   padding-top: 25px;
+}
+
+.col {
+  text-align: center;
 }
