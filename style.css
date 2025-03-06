@@ -115,3 +115,20 @@
 .col {
   text-align: center;
 }
+
+
+:root { 
+  --primary: #2b2d42;
+  --accent: #8d99ae;
+  --secondary: #f8f32b;
+  --light-big: #000000;
+  --text-light: #ffffff;
+}
+
+.container-fluid {
+  background-color: var(--primary) !important;
+}
+
+.nav-link :active {
+  color: var(--secondary) !important;
+}
