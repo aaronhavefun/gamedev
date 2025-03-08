@@ -129,6 +129,58 @@
   background-color: var(--primary) !important;
 }
 
-.nav-link :active {
+.navbar-nav, .nav-link {
+  color: var(--text-light) !important;
+}
+
+.navbar-nav, .nav-link:hover {
   color: var(--secondary) !important;
+
+}
+
+.navbar-nav, .nav-link:active {
+  color: var(--secondary) !important;
+}
+
+
+.btn {
+  color: var(--secondary);
+}
+
+.btn-outline-success {
+  border-color: var(--secondary) !important;
+  color: var(--secondary) !important;
+}
+
+.btn-outline-success:hover {
+  background-color: var(--secondary) !important;
+  color: var(--light-big) !important;
+  border-color: var(--secondary) !important;
+}
+
+#welcome_text {
+  position: absolute;
+  margin-left: 720px;
+  text-align: center;
+  margin-top: -600px;
+  color: white;
+}
+
+#homebut {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  background-color: var(--primary) !important;
+  border-radius: 5px;
+  text-align: center;
+  margin-left: 860px;
+  margin-top: -510px;
+ 
+}
+
+#homebut p {
+  color: var(--text-light);
+  vertical-align: middle;
+  padding: 10 5 10 5px;
+  font-size: 30px;
 }
